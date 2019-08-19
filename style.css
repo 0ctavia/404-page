@@ -1,6 +1,6 @@
 /*Style.css - stylesheet for 404 page*/
-body { background-color:#000000;
-	color: #FFFFFF;
+body { background-color:#FFFFFF;
+	color: #00000;
 }
 H1 { color: ##8600b3;
 	font-size: 35px;
@@ -11,5 +11,5 @@ H1 { color: ##8600b3;
 }
 p { color:#ff00ff
        font-size:20px;	
-       text-align: center;
-       }
+       text-align:center;
+    }
