@@ -9,7 +9,9 @@ h1 { color: #8600b3;
 	text-shadow: 0px 2px 4px #cc00ff
 	word-spacing: 1cm;
 }
-p { -webkit-keyframes: color-change 2s infinite;
+.animated { 
+	-webkit-animation: color-change 5s linear 2s infinite; 
+	animation: color-change 5s linear 2s infinite;
 	font-size: 30px;
 	font-family: sans-serif;
 	text-align: center;
@@ -17,8 +19,19 @@ p { -webkit-keyframes: color-change 2s infinite;
 
     }
 
+.image {
+	align: center;
+}
+p {
+	text-align:center;
+}
 @-webkit-keyframes color-change {
-	0% {color: #a832a0}
-	50% {color: #9232a8}
-	100% {color: #9232a8}
+	0% {color: #a832a0;}
+	50% {color: #9232a8;}
+	100% {color: #FFFFFF;}
+}
+@keyframes color-change {
+	0% {color: #a832a0;}
+        50% {color: #9232a8;}
+        100% {color: #FFFFFF;}
 }
